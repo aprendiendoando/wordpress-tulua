@@ -28,12 +28,12 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: none;
   font-style: normal;
-  font-weight: normal;
   font-variant: normal;
-  text-transform: none;
+  font-weight: normal;
   line-height: 1;
+  speak: none;
+  text-transform: none;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
@@ -86,10 +86,10 @@ html {
  */
 
 hr {
+    border-top: 1px solid #ccc;
+    border: 0;
     display: block;
     height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
     margin: 1em 0;
     padding: 0;
 }
@@ -132,9 +132,9 @@ textarea {
    ========================================================================== */
 
 .browserupgrade {
-    margin: 0.2em 0;
     background: #ccc;
     color: #000;
+    margin: 0.2em 0;
     padding: 0.2em 0;
 }
 
@@ -142,13 +142,13 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-  text-align: center;
-  font-family: 'Covered By Your Grace', cursive;
-   background: -webkit-linear-gradient(21deg, #062837, #18a2dc, #020d12, #116f97, #117896, #295296);
-   background: -o-linear-gradient(21deg, #062837, #18a2dc, #020d12, #116f97, #117896, #295296);
-   background: linear-gradient(111deg, #062837, #18a2dc, #020d12, #116f97, #117896, #295296);
    background-size: 1200% 1200%;
+   background: -o-linear-gradient(21deg, #062837, #18a2dc, #020d12, #116f97, #117896, #295296);
+   background: -webkit-linear-gradient(21deg, #062837, #18a2dc, #020d12, #116f97, #117896, #295296);
+   background: linear-gradient(111deg, #062837, #18a2dc, #020d12, #116f97, #117896, #295296);
    height:100vh;
+  font-family: 'Covered By Your Grace', cursive;
+  text-align: center;
    -webkit-animation: AnimationName 32s ease infinite;
    -moz-animation: AnimationName 32s ease infinite;
    animation: AnimationName 32s ease infinite;
@@ -171,34 +171,36 @@ body {
 }
 
 #days {
-  font-size: 200px;
   color: #db4844;
+  font-size: 200px;
 }
 #hours {
-  font-size: 150px;
   color: #f07c22;
+  font-size: 150px;
 }
 #minutes {
-  font-size: 100px;
   color: #f6da74;
+  font-size: 100px;
 }
 #seconds {
-  font-size: 50px;
   color: #abcd58;
+  font-size: 50px;
+}
+
+span {
+  color: white;
+  display: block;
+  font-size: 20px;
 }
 
 div {
   display: inline-block;
+  font-size: 40px;
   line-height: 1;
   padding: 10px 10px 0 10px;
-  font-size: 40px;
 }
 
-span {
-  display: block;
-  font-size: 20px;
-  color: white;
-}
+
 
 .font-secundary{
     font-family:'Roboto', sans-serif;
@@ -226,16 +228,16 @@ span {
 
 .share{
     display:flex;
-    width:200px;
     justify-content:space-around;
+    width:200px;
 }
 
 
 
 .share a{
     color:white;
-    text-decoration:none;
     font-size:1.3rem;
+    text-decoration:none;
 }
 
 .facebook:hover{
@@ -255,10 +257,10 @@ span {
 }
 
 .wrapper{
-    display:flex;
-    justify-content: center;
     align-items: center;
+    display:flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 
