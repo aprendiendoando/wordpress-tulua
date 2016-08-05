@@ -58,7 +58,6 @@ html {
     color: #fff;
     font-size: 1em;
     line-height: 1.4;
-
 }
 
 
@@ -142,29 +141,28 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
+   background: linear-gradient(270deg, #041b25, #0a435c, #0c516e, #116d96, #1487b8, #18a2dc);
    background-size: 1200% 1200%;
-   background: -o-linear-gradient(21deg, #062837, #18a2dc, #020d12, #116f97, #117896, #295296);
-   background: -webkit-linear-gradient(21deg, #062837, #18a2dc, #020d12, #116f97, #117896, #295296);
-   background: linear-gradient(111deg, #062837, #18a2dc, #020d12, #116f97, #117896, #295296);
+   -webkit-animation: backgroundanimation 30s ease infinite;
+   -moz-animation: backgroundanimation 30s ease infinite;
+   animation: backgroundanimation 30s ease infinite;
    height:100vh;
-  font-family: 'Covered By Your Grace', cursive;
-  text-align: center;
-   -webkit-animation: AnimationName 32s ease infinite;
-   -moz-animation: AnimationName 32s ease infinite;
-   animation: AnimationName 32s ease infinite;
+   font-family: 'Covered By Your Grace', cursive;
+   text-align: center;
+
 }
 
-@-webkit-keyframes AnimationName {
+@-webkit-keyframes backgroundanimation {
     0%{background-position:0% 60%}
     50%{background-position:100% 41%}
     100%{background-position:0% 60%}
 }
-@-moz-keyframes AnimationName {
+@-moz-keyframes backgroundanimation {
     0%{background-position:0% 60%}
     50%{background-position:100% 41%}
     100%{background-position:0% 60%}
 }
-@keyframes AnimationName {
+@keyframes backgroundanimation {
     0%{background-position:0% 60%}
     50%{background-position:100% 41%}
     100%{background-position:0% 60%}
@@ -199,7 +197,6 @@ div {
   line-height: 1;
   padding: 10px 10px 0 10px;
 }
-
 
 
 .font-secundary{
