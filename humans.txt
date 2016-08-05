@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Yan Arlex Vallejo - Frontend - @yavallejo
+
+# THANKS
+
+    Chris Coyier @chriscoyier
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    HTML5Boilerplate, Normalize.css
